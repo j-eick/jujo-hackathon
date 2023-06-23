@@ -1,5 +1,4 @@
 import React from "react";
-import { Button as AntdButton } from "antd";
 import cn from "classnames";
 
 import { ButtonProps } from "./button.types";
@@ -13,7 +12,7 @@ const Button = ({
   disabled,
 }: ButtonProps) => {
   return (
-    <AntdButton
+    <button
       onClick={onClick}
       className={cn(
         styles.button,
@@ -26,7 +25,7 @@ const Button = ({
       disabled={disabled}
     >
       {children}
-    </AntdButton>
+    </button>
   );
 };
 

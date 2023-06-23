@@ -38,6 +38,16 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --grey-1: #1B1A28;
+  --grey-2: #322E45;
+  --grey-3: #565469;
+  --disabledGrey: #ABAAB0;
+  --lightGrey: #DBDAE1;
+  --violet: #8D85E8;
+  --disabledViolet: #5f59ab;
+  --offWhite: #FCFBFF;
+  --popOrange: #F54603;
 }
 
 @media (prefers-color-scheme: dark) {
