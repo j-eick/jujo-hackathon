@@ -1,0 +1,14 @@
+.button {
+  border-radius: 10px;
+}
+
+.primary {
+  background-color: #8D85E8;
+  color: #FCFBFF;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #FCFBFF;
+  border: solid 2px #FCFBFF;
+}
