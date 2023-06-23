@@ -48,6 +48,7 @@
   --disabledViolet: #5f59ab;
   --offWhite: #FCFBFF;
   --popOrange: #F54603;
+  --borderRadius: 5px;
 }
 
 @media (prefers-color-scheme: dark) {

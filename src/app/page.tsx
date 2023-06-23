@@ -2,6 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "./components/button";
+import Input from "./components/input";
 
 export default function Home() {
   return (
@@ -23,14 +24,16 @@ export default function Home() {
           />
         </a>
       </div>
+
       <div
         style={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#322E45",
+          backgroundColor: "#1B1A28",
           padding: "24px",
         }}
       >
+        <Input value="Hello World" onChange={(e) => console.log({ e })} />
         <Button type="primary" onClick={() => {}} className={styles.testButton}>
           Primary Active
         </Button>
