@@ -1,0 +1,8 @@
+.input {
+  height: 36px;
+  border: none;
+  padding-inline: 12px;
+  border-radius: var(--borderRadius);
+  background-color: var(--grey-2);
+  color: var(--disabledGrey);
+}

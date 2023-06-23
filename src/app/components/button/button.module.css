@@ -1,0 +1,38 @@
+.button {
+  border-radius: var(--borderRadius);
+  padding: 12px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--violet);
+  color: var(--offWhite);
+  border: none;
+}
+
+.primary:hover {
+  background-color: var(--disabledViolet);
+}
+
+.primary:disabled {
+  background-color: var(--disabledViolet);
+  color: var(--disabledGrey);
+  cursor: default;
+}
+
+.secondary {
+  background-color: transparent;
+  color: var(--offWhite);
+  border: solid 2px var(--offWhite);
+}
+
+.secondary:hover {
+  color: var(--disabledGrey);
+  border: solid 2px var(--disabledGrey);
+}
+
+.secondary:disabled {
+  color: var(--disabledGrey);
+  border: solid 2px var(--disabledGrey);
+  cursor: default;
+}
