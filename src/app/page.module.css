@@ -1,9 +1,11 @@
 .main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-content: center;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
+
+  max-width: 600px;
 }
 
 /* .description {
@@ -26,4 +28,26 @@
 
 .testButton {
   margin: 24px;
+}
+
+/* .product_pics {
+  display: flex;
+  flex-direction: row;
+} */
+
+.ul {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.drama_description_list {
+  margin-top: 20px;
+}
+
+.p {
+  font-size: var(--font_dramaDescription);
+  color: #8d85e8;
 }
