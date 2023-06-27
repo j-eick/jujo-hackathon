@@ -47,6 +47,10 @@
   margin-top: 20px;
 }
 
+.product_title {
+  color: var(--offWhite);
+}
+
 .p {
   font-size: var(--font_dramaDescription);
   color: #8d85e8;
