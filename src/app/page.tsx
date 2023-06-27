@@ -18,7 +18,7 @@ export default function Home() {
           padding: "24px",
         }}
       >
-        <h1>Leather Jacket</h1>
+        <h1 className={styles.product_title}>Leather Jacket</h1>
         <ul className={styles.drama_description_list}>
           <li className={styles.drama_description_item}>
             <p className={styles.p}>Drama: Descendants of the sun, S1/EP2</p>
@@ -29,10 +29,10 @@ export default function Home() {
         </ul>
         <ul className={styles.ul}>
           <li>
-            <ProductImage src={require("./../../public/jacket.png")} alt="stuff" width={150} height={150} />
+            <ProductImage src={"/jacket.png"} alt="stuff" width={150} height={150} />
           </li>
           <li>
-            <ProductImage src={require("./../../public/jacket.png")} alt="stuff" width={150} height={150} />
+            <ProductImage src={"/jacket.png"} alt="stuff" width={150} height={150} />
           </li>
         </ul>
         <Button type="primary" onClick={() => {}} className={styles.testButton}>
